@@ -48,3 +48,6 @@ db.courses.updateMany({price:350},{$set:{price:0}})
 //Delete
 db.courses.deleteOne({price:1000})
 db.courses.deleteMany({price:1000})
+
+// https://www.mongodb.com/docs/manual/reference/operator/query/
+// https://www.mongodb.com/developer/products/mongodb/cheat-sheet/
